@@ -1,0 +1,40 @@
+{
+  "name": "proto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "storybook": "start-storybook",
+    "test": "rm -rf ./dist/test && tsc -p tsconfig_test.json && karma start --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.10.1",
+    "@babel/preset-env": "^7.8.7",
+    "@cybozu/eslint-config": "^10.0.1",
+    "@open-wc/testing": "^2.5.17",
+    "@open-wc/testing-karma": "^3.4.2",
+    "@storybook/web-components": "^5.3.19",
+    "babel-loader": "^8.1.0",
+    "deepmerge": "^4.2.2",
+    "eslint": "^6.8.0",
+    "karma": "^5.0.9",
+    "karma-coverage": "^2.0.2",
+    "prettier": "^1.19.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.4.3",
+    "core-js": "^3.6.5",
+    "lit-element": "^2.3.1",
+    "regenerator-runtime": "^0.13.5"
+  }
+}
