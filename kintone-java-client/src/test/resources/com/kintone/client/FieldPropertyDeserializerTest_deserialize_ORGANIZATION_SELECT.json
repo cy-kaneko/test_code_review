@@ -1,0 +1,20 @@
+{
+  "property": {
+    "type": "ORGANIZATION_SELECT",
+    "code": "orgselect",
+    "label": "Department selection field",
+    "noLabel": true,
+    "required": true,
+    "entities": [],
+    "defaultValue": [
+      {
+        "type": "ORGANIZATION",
+        "code": "org"
+      },
+      {
+        "type": "FUNCTION",
+        "code": "PRIMARY_ORGANIZATION()"
+      }
+    ]
+  }
+}
